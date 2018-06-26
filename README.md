@@ -1,3 +1,2 @@
 # SVNDBLIB
-ALTIUM DBLIB based on xls data base.  tytytyttyu
-dfhfhfhtfh
+ALTIUM DBLIB based on xls data base.
