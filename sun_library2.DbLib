@@ -1,8 +1,8 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\aleksey.sukhovey\work\Altium_Projects\SVNDBLIB\sun_library2.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
-AddMode=2
+ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\Altium_Projects\SVNDBLIB\sun_library2.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+AddMode=3
 RemoveMode=1
 UpdateMode=2
 ViewMode=0
@@ -12,14 +12,14 @@ QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
 LibraryDatabaseType=Microsoft Excel
-LibraryDatabasePath=sun_library2.xls
+LibraryDatabasePath=D:\Altium_Projects\SVNDBLIB\sun_library2.xls
 DatabasePathRelative=1
 TopPanelCollapsed=0
 LibrarySearchPath=
 OrcadMultiValueDelimiter=,
-SearchSubDirectories=1
+SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Capacitors Ceram$
+LastFocusedTable=Transistors$
 [Table1]
 SchemaName=
 TableName=CapCeramMURATA$
@@ -28,7 +28,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Library Ref0=77|Footprint Ref0=92|Description0=158|Library Path0=106|Footprint Path0=100|Identifier0=221|Value0=57|Value BOM0=81|Tolerance0=72|Case0=47|Manufacturer0=93|Part Number0=132|Voltage0=63|Code0=50|Type0=46|Comment0=110|Operating Temperature0=143|Price0=47|HelpURL0=295
+BrowserOrder_Visible=Identifier0=221|Library Ref0=77|Value0=57|Value BOM0=81|Tolerance0=72|Case0=47|Footprint Ref0=92|Manufacturer0=93|Part Number0=132|Voltage0=63|Description0=158|Code0=50|Type0=46|Comment0=110|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=100|HelpURL0=295
 [Table2]
 SchemaName=
 TableName=Capacitors Ceram$
@@ -37,7 +37,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Library Ref0=77|Value0=59|Footprint Ref0=92|Description0=158|Library Path0=106|Footprint Path0=100|Identifier0=211|Value BOM0=81|Tolerance0=72|Case0=47|Manufacturer0=93|Part Number0=137|Voltage0=63|Code0=50|Type0=46|Comment0=110|Operating Temperature0=143|Price0=47|HelpURL0=288
+BrowserOrder_Visible=Identifier0=212|Library Ref0=77|Value0=59|Value BOM0=81|Tolerance0=72|Case0=47|Footprint Ref0=92|Manufacturer0=93|Part Number0=137|Voltage0=63|Description0=131|Code0=50|Type0=46|Comment0=110|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=100|HelpURL0=288
 [Table3]
 SchemaName=
 TableName=Capacitors El$
@@ -46,7 +46,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Library Ref0=77|Value0=56|Footprint Ref0=108|Voltage0=63|Description0=136|Library Path0=106|Footprint Path0=100|Identifier0=291|Value BOM0=81|Tolerance0=72|Case0=85|Manufacturer0=109|Part Number0=117|Code0=50|Type0=46|Comment0=110|Operating Temperature0=143|Price0=47|HelpURL0=143
+BrowserOrder_Visible=Identifier0=299|Library Ref0=77|Value0=56|Value BOM0=81|Tolerance0=72|Case0=84|Footprint Ref0=108|Manufacturer0=109|Part Number0=117|Voltage0=63|Description0=150|Code0=50|Type0=46|Comment0=110|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=100|HelpURL0=143
 [Table4]
 SchemaName=
 TableName=Coils$
@@ -55,7 +55,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Identifier0=230|Library Ref0=94|Footprint Ref0=97|Description0=271|Library Path0=106|Footprint Path0=100|Value0=125|Value BOM0=81|Tolerance0=72|Case0=79|Manufacturer0=93|Part Number0=125|Voltage0=63|Code0=50|Type0=46|Comment0=72|Operating Temperature0=143|Price0=47|HelpURL0=196
+BrowserOrder_Visible=Identifier0=230|Library Ref0=94|Value0=125|Value BOM0=81|Tolerance0=72|Case0=79|Footprint Ref0=97|Manufacturer0=93|Part Number0=125|Voltage0=63|Description0=94|Code0=50|Type0=46|Comment0=72|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=100|HelpURL0=196
 [Table5]
 SchemaName=
 TableName=Connectors$
@@ -64,7 +64,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Identifier0=223|Library Ref0=143|Footprint Ref0=166|Description0=351|Library Path0=106|Footprint Path0=128|Value0=145|Value BOM0=81|Tolerance0=72|Case0=47|Manufacturer0=152|Part Number0=150|Voltage0=63|Code0=50|Type0=46|Comment0=72|Operating Temperature0=143|Price0=47|HelpURL0=266
+BrowserOrder_Visible=Identifier0=253|Library Ref0=143|Value0=145|Value BOM0=81|Tolerance0=72|Case0=47|Footprint Ref0=166|Manufacturer0=152|Part Number0=150|Voltage0=63|Description0=254|Code0=50|Type0=46|Comment0=72|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=128|HelpURL0=301
 [Table6]
 SchemaName=
 TableName=Diodes$
@@ -73,16 +73,16 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Identifier0=177|Library Ref0=84|Footprint Ref0=92|Description0=265|Library Path0=106|Footprint Path0=100|Value0=102|Value BOM0=81|Tolerance0=72|Case0=202|Manufacturer0=103|Part Number0=102|Voltage0=63|Code0=50|Type0=46|Comment0=72|Operating Temperature0=143|Price0=47|HelpURL0=158
+BrowserOrder_Visible=Identifier0=177|Library Ref0=85|Value0=102|Value BOM0=81|Tolerance0=72|Case0=202|Footprint Ref0=92|Manufacturer0=103|Part Number0=102|Voltage0=63|Description0=239|Code0=50|Type0=46|Comment0=72|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=100|HelpURL0=168
 [Table7]
 SchemaName=
 TableName=ICs$
 Enabled=True
 UserWhere=0
-UserWhereText=[Identifier] = '{Manufacturer}'+'.'+'{Part Number}'
+UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Library Ref0=118|Library Path0=106|Footprint Ref0=216|Footprint Path0=100|Value0=121|Description0=82|Identifier0=329|Value BOM0=81|Tolerance0=72|Case0=111|Manufacturer0=180|Part Number0=146|Voltage0=63|Code0=50|Type0=46|Comment0=72|Operating Temperature0=143|Price0=47|HelpURL0=297
+BrowserOrder_Visible=Identifier0=329|Library Ref0=118|Value0=121|Value BOM0=81|Tolerance0=72|Case0=111|Footprint Ref0=222|Manufacturer0=180|Part Number0=146|Voltage0=63|Description0=82|Code0=50|Type0=46|Comment0=72|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=100|HelpURL0=297
 [Table8]
 SchemaName=
 TableName=LEDs$
@@ -91,13 +91,16 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Library Ref0=77|Footprint Ref0=99|Description0=241|Library Path0=106|Footprint Path0=98|Value0=115|Identifier0=121|Value BOM0=81|Tolerance0=72|Case0=47|Manufacturer0=93|Part Number0=97|Voltage0=63|Code0=50|Type0=49|Comment0=72|Operating Temperature0=143|Price0=47|HelpURL0=246
+BrowserOrder_Visible=Identifier0=121|Library Ref0=82|Value0=115|Value BOM0=81|Tolerance0=72|Case0=47|Footprint Ref0=99|Manufacturer0=93|Part Number0=97|Voltage0=63|Description0=82|Code0=50|Type0=59|Comment0=72|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=98|HelpURL0=246
 [Table9]
 SchemaName=
 TableName=Resistors$
 Enabled=True
 UserWhere=0
-UserWhereText=[Identifier] = '{Manufacturer}'+'.'+'{Part Number}'
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Identifier0=321|Library Ref0=77|Value0=59|Value BOM0=81|Tolerance0=72|Case0=47|Footprint Ref0=98|Manufacturer0=116|Part Number0=109|Voltage0=63|Description0=116|Code0=50|Type0=46|Comment0=119|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=100|HelpURL0=105
 [Table10]
 SchemaName=
 TableName=Resonators$
@@ -106,7 +109,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Library Ref0=107|Footprint Ref0=107|Description0=347|Library Path0=106|Footprint Path0=100|Value0=63|Identifier0=226|Value BOM0=81|Tolerance0=72|Case0=59|Manufacturer0=125|Part Number0=150|Voltage0=63|Code0=50|Type0=46|Comment0=72|Operating Temperature0=143|Price0=47|HelpURL0=181
+BrowserOrder_Visible=Identifier0=226|Library Ref0=107|Value0=75|Value BOM0=81|Tolerance0=72|Case0=64|Footprint Ref0=107|Manufacturer0=125|Part Number0=167|Voltage0=63|Description0=126|Code0=50|Type0=46|Comment0=72|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=100|HelpURL0=226
 [Table11]
 SchemaName=
 TableName=Transistors$
@@ -115,7 +118,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Library Ref0=89|Footprint Ref0=92|Description0=275|Library Path0=106|Footprint Path0=100|Value0=81|Identifier0=207|Value BOM0=81|Tolerance0=72|Case0=76|Manufacturer0=120|Part Number0=93|Voltage0=98|Code0=50|Type0=106|Comment0=72|Operating Temperature0=143|Price0=47|HelpURL0=151
+BrowserOrder_Visible=Identifier0=226|Library Ref0=89|Value0=94|Value BOM0=81|Tolerance0=72|Case0=76|Footprint Ref0=92|Manufacturer0=120|Part Number0=94|Voltage0=110|Description0=82|Code0=50|Type0=127|Comment0=72|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=100|HelpURL0=151
 [Table12]
 SchemaName=
 TableName=miscellaneous$
@@ -124,174 +127,174 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Identifier0=195|Library Ref0=105|Footprint Ref0=144|Description0=278|Library Path0=106|Footprint Path0=100|Value0=115|Value BOM0=81|Tolerance0=72|Case0=73|Manufacturer0=112|Part Number0=100|Voltage0=63|Code0=50|Type0=46|Comment0=72|Operating Temperature0=143|Price0=47|HelpURL0=235
+BrowserOrder_Visible=Identifier0=195|Library Ref0=105|Value0=115|Value BOM0=81|Tolerance0=72|Case0=73|Footprint Ref0=144|Manufacturer0=112|Part Number0=100|Voltage0=63|Description0=272|Code0=50|Type0=46|Comment0=119|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=100|HelpURL0=235
 [FieldMap1]
-Options=FieldName=CapCeramMURATA$.Library Ref|TableNameOnly=CapCeramMURATA$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap2]
-Options=FieldName=CapCeramMURATA$.Footprint Ref|TableNameOnly=CapCeramMURATA$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap3]
-Options=FieldName=CapCeramMURATA$.Description|TableNameOnly=CapCeramMURATA$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap4]
-Options=FieldName=CapCeramMURATA$.Library Path|TableNameOnly=CapCeramMURATA$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap5]
-Options=FieldName=CapCeramMURATA$.Footprint Path|TableNameOnly=CapCeramMURATA$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap6]
 Options=FieldName=CapCeramMURATA$.Identifier|TableNameOnly=CapCeramMURATA$|FieldNameOnly=Identifier|FieldType=0|ParameterName=Identifier|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap7]
+[FieldMap2]
+Options=FieldName=CapCeramMURATA$.Library Ref|TableNameOnly=CapCeramMURATA$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
 Options=FieldName=CapCeramMURATA$.Value|TableNameOnly=CapCeramMURATA$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=CapCeramMURATA$.Footprint Ref|TableNameOnly=CapCeramMURATA$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=CapCeramMURATA$.Description|TableNameOnly=CapCeramMURATA$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=CapCeramMURATA$.Library Path|TableNameOnly=CapCeramMURATA$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=CapCeramMURATA$.Footprint Path|TableNameOnly=CapCeramMURATA$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap8]
-Options=FieldName=Capacitors Ceram$.Library Ref|TableNameOnly=Capacitors Ceram$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap9]
-Options=FieldName=Capacitors Ceram$.Value|TableNameOnly=Capacitors Ceram$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap10]
-Options=FieldName=Capacitors Ceram$.Footprint Ref|TableNameOnly=Capacitors Ceram$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap11]
-Options=FieldName=Capacitors Ceram$.Description|TableNameOnly=Capacitors Ceram$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap12]
-Options=FieldName=Capacitors Ceram$.Library Path|TableNameOnly=Capacitors Ceram$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap13]
-Options=FieldName=Capacitors Ceram$.Footprint Path|TableNameOnly=Capacitors Ceram$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap14]
 Options=FieldName=Capacitors Ceram$.Identifier|TableNameOnly=Capacitors Ceram$|FieldNameOnly=Identifier|FieldType=0|ParameterName=Identifier|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=Capacitors Ceram$.Library Ref|TableNameOnly=Capacitors Ceram$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=Capacitors Ceram$.Value|TableNameOnly=Capacitors Ceram$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=Capacitors Ceram$.Footprint Ref|TableNameOnly=Capacitors Ceram$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=Capacitors Ceram$.Description|TableNameOnly=Capacitors Ceram$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=Capacitors Ceram$.Library Path|TableNameOnly=Capacitors Ceram$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=Capacitors Ceram$.Footprint Path|TableNameOnly=Capacitors Ceram$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap15]
-Options=FieldName=Capacitors El$.Library Ref|TableNameOnly=Capacitors El$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap16]
-Options=FieldName=Capacitors El$.Value|TableNameOnly=Capacitors El$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap17]
-Options=FieldName=Capacitors El$.Footprint Ref|TableNameOnly=Capacitors El$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap18]
-Options=FieldName=Capacitors El$.Voltage|TableNameOnly=Capacitors El$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap19]
-Options=FieldName=Capacitors El$.Description|TableNameOnly=Capacitors El$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap20]
-Options=FieldName=Capacitors El$.Library Path|TableNameOnly=Capacitors El$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap21]
-Options=FieldName=Capacitors El$.Footprint Path|TableNameOnly=Capacitors El$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap22]
 Options=FieldName=Capacitors El$.Identifier|TableNameOnly=Capacitors El$|FieldNameOnly=Identifier|FieldType=0|ParameterName=Identifier|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap16]
+Options=FieldName=Capacitors El$.Library Ref|TableNameOnly=Capacitors El$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap17]
+Options=FieldName=Capacitors El$.Value|TableNameOnly=Capacitors El$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap18]
+Options=FieldName=Capacitors El$.Footprint Ref|TableNameOnly=Capacitors El$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap19]
+Options=FieldName=Capacitors El$.Voltage|TableNameOnly=Capacitors El$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap20]
+Options=FieldName=Capacitors El$.Description|TableNameOnly=Capacitors El$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap21]
+Options=FieldName=Capacitors El$.Library Path|TableNameOnly=Capacitors El$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap22]
+Options=FieldName=Capacitors El$.Footprint Path|TableNameOnly=Capacitors El$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap23]
 Options=FieldName=Coils$.Identifier|TableNameOnly=Coils$|FieldNameOnly=Identifier|FieldType=0|ParameterName=Identifier|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap24]
 Options=FieldName=Coils$.Library Ref|TableNameOnly=Coils$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap25]
-Options=FieldName=Coils$.Footprint Ref|TableNameOnly=Coils$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap26]
-Options=FieldName=Coils$.Description|TableNameOnly=Coils$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap27]
-Options=FieldName=Coils$.Library Path|TableNameOnly=Coils$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap28]
-Options=FieldName=Coils$.Footprint Path|TableNameOnly=Coils$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap29]
 Options=FieldName=Coils$.Value|TableNameOnly=Coils$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap26]
+Options=FieldName=Coils$.Footprint Ref|TableNameOnly=Coils$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap27]
+Options=FieldName=Coils$.Description|TableNameOnly=Coils$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap28]
+Options=FieldName=Coils$.Library Path|TableNameOnly=Coils$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap29]
+Options=FieldName=Coils$.Footprint Path|TableNameOnly=Coils$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap30]
 Options=FieldName=Connectors$.Identifier|TableNameOnly=Connectors$|FieldNameOnly=Identifier|FieldType=0|ParameterName=Identifier|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap31]
 Options=FieldName=Connectors$.Library Ref|TableNameOnly=Connectors$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap32]
-Options=FieldName=Connectors$.Footprint Ref|TableNameOnly=Connectors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap33]
-Options=FieldName=Connectors$.Description|TableNameOnly=Connectors$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap34]
-Options=FieldName=Connectors$.Library Path|TableNameOnly=Connectors$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap35]
-Options=FieldName=Connectors$.Footprint Path|TableNameOnly=Connectors$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap36]
 Options=FieldName=Connectors$.Value|TableNameOnly=Connectors$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap33]
+Options=FieldName=Connectors$.Footprint Ref|TableNameOnly=Connectors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap34]
+Options=FieldName=Connectors$.Description|TableNameOnly=Connectors$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap35]
+Options=FieldName=Connectors$.Library Path|TableNameOnly=Connectors$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap36]
+Options=FieldName=Connectors$.Footprint Path|TableNameOnly=Connectors$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap37]
 Options=FieldName=Diodes$.Identifier|TableNameOnly=Diodes$|FieldNameOnly=Identifier|FieldType=0|ParameterName=Identifier|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap38]
 Options=FieldName=Diodes$.Library Ref|TableNameOnly=Diodes$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap39]
-Options=FieldName=Diodes$.Footprint Ref|TableNameOnly=Diodes$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap40]
-Options=FieldName=Diodes$.Description|TableNameOnly=Diodes$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap41]
-Options=FieldName=Diodes$.Library Path|TableNameOnly=Diodes$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap42]
-Options=FieldName=Diodes$.Footprint Path|TableNameOnly=Diodes$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap43]
 Options=FieldName=Diodes$.Value|TableNameOnly=Diodes$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap40]
+Options=FieldName=Diodes$.Footprint Ref|TableNameOnly=Diodes$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap41]
+Options=FieldName=Diodes$.Description|TableNameOnly=Diodes$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap42]
+Options=FieldName=Diodes$.Library Path|TableNameOnly=Diodes$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap43]
+Options=FieldName=Diodes$.Footprint Path|TableNameOnly=Diodes$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap44]
-Options=FieldName=ICs$.Library Ref|TableNameOnly=ICs$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap45]
-Options=FieldName=ICs$.Library Path|TableNameOnly=ICs$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap46]
-Options=FieldName=ICs$.Footprint Ref|TableNameOnly=ICs$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap47]
-Options=FieldName=ICs$.Footprint Path|TableNameOnly=ICs$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap48]
-Options=FieldName=ICs$.Value|TableNameOnly=ICs$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap49]
-Options=FieldName=ICs$.Description|TableNameOnly=ICs$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap50]
 Options=FieldName=ICs$.Identifier|TableNameOnly=ICs$|FieldNameOnly=Identifier|FieldType=0|ParameterName=Identifier|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap45]
+Options=FieldName=ICs$.Library Ref|TableNameOnly=ICs$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap46]
+Options=FieldName=ICs$.Value|TableNameOnly=ICs$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap47]
+Options=FieldName=ICs$.Footprint Ref|TableNameOnly=ICs$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap48]
+Options=FieldName=ICs$.Description|TableNameOnly=ICs$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap49]
+Options=FieldName=ICs$.Library Path|TableNameOnly=ICs$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap50]
+Options=FieldName=ICs$.Footprint Path|TableNameOnly=ICs$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap51]
-Options=FieldName=LEDs$.Library Ref|TableNameOnly=LEDs$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap52]
-Options=FieldName=LEDs$.Footprint Ref|TableNameOnly=LEDs$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap53]
-Options=FieldName=LEDs$.Description|TableNameOnly=LEDs$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap54]
-Options=FieldName=LEDs$.Library Path|TableNameOnly=LEDs$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap55]
-Options=FieldName=LEDs$.Footprint Path|TableNameOnly=LEDs$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap56]
-Options=FieldName=LEDs$.Value|TableNameOnly=LEDs$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap57]
 Options=FieldName=LEDs$.Identifier|TableNameOnly=LEDs$|FieldNameOnly=Identifier|FieldType=0|ParameterName=Identifier|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap52]
+Options=FieldName=LEDs$.Library Ref|TableNameOnly=LEDs$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap53]
+Options=FieldName=LEDs$.Value|TableNameOnly=LEDs$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap54]
+Options=FieldName=LEDs$.Footprint Ref|TableNameOnly=LEDs$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap55]
+Options=FieldName=LEDs$.Description|TableNameOnly=LEDs$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap56]
+Options=FieldName=LEDs$.Library Path|TableNameOnly=LEDs$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap57]
+Options=FieldName=LEDs$.Footprint Path|TableNameOnly=LEDs$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap58]
-Options=FieldName=Resistors$.Library Ref|TableNameOnly=Resistors$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap59]
-Options=FieldName=Resistors$.Library Path|TableNameOnly=Resistors$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap60]
-Options=FieldName=Resistors$.Footprint Ref|TableNameOnly=Resistors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap61]
-Options=FieldName=Resistors$.Footprint Path|TableNameOnly=Resistors$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap62]
-Options=FieldName=Resistors$.Value|TableNameOnly=Resistors$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap63]
-Options=FieldName=Resistors$.Description|TableNameOnly=Resistors$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap64]
 Options=FieldName=Resistors$.Identifier|TableNameOnly=Resistors$|FieldNameOnly=Identifier|FieldType=0|ParameterName=Identifier|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap59]
+Options=FieldName=Resistors$.Library Ref|TableNameOnly=Resistors$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap60]
+Options=FieldName=Resistors$.Value|TableNameOnly=Resistors$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap61]
+Options=FieldName=Resistors$.Footprint Ref|TableNameOnly=Resistors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap62]
+Options=FieldName=Resistors$.Description|TableNameOnly=Resistors$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap63]
+Options=FieldName=Resistors$.Library Path|TableNameOnly=Resistors$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap64]
+Options=FieldName=Resistors$.Footprint Path|TableNameOnly=Resistors$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap65]
-Options=FieldName=Resonators$.Library Ref|TableNameOnly=Resonators$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap66]
-Options=FieldName=Resonators$.Footprint Ref|TableNameOnly=Resonators$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap67]
-Options=FieldName=Resonators$.Description|TableNameOnly=Resonators$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap68]
-Options=FieldName=Resonators$.Library Path|TableNameOnly=Resonators$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap69]
-Options=FieldName=Resonators$.Footprint Path|TableNameOnly=Resonators$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap70]
-Options=FieldName=Resonators$.Value|TableNameOnly=Resonators$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap71]
 Options=FieldName=Resonators$.Identifier|TableNameOnly=Resonators$|FieldNameOnly=Identifier|FieldType=0|ParameterName=Identifier|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap66]
+Options=FieldName=Resonators$.Library Ref|TableNameOnly=Resonators$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap67]
+Options=FieldName=Resonators$.Value|TableNameOnly=Resonators$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap68]
+Options=FieldName=Resonators$.Footprint Ref|TableNameOnly=Resonators$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap69]
+Options=FieldName=Resonators$.Description|TableNameOnly=Resonators$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap70]
+Options=FieldName=Resonators$.Library Path|TableNameOnly=Resonators$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap71]
+Options=FieldName=Resonators$.Footprint Path|TableNameOnly=Resonators$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap72]
-Options=FieldName=Transistors$.Library Ref|TableNameOnly=Transistors$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap73]
-Options=FieldName=Transistors$.Footprint Ref|TableNameOnly=Transistors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap74]
-Options=FieldName=Transistors$.Description|TableNameOnly=Transistors$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap75]
-Options=FieldName=Transistors$.Library Path|TableNameOnly=Transistors$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap76]
-Options=FieldName=Transistors$.Footprint Path|TableNameOnly=Transistors$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap77]
-Options=FieldName=Transistors$.Value|TableNameOnly=Transistors$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap78]
 Options=FieldName=Transistors$.Identifier|TableNameOnly=Transistors$|FieldNameOnly=Identifier|FieldType=0|ParameterName=Identifier|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap73]
+Options=FieldName=Transistors$.Library Ref|TableNameOnly=Transistors$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap74]
+Options=FieldName=Transistors$.Value|TableNameOnly=Transistors$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap75]
+Options=FieldName=Transistors$.Footprint Ref|TableNameOnly=Transistors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap76]
+Options=FieldName=Transistors$.Description|TableNameOnly=Transistors$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap77]
+Options=FieldName=Transistors$.Library Path|TableNameOnly=Transistors$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap78]
+Options=FieldName=Transistors$.Footprint Path|TableNameOnly=Transistors$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap79]
 Options=FieldName=miscellaneous$.Identifier|TableNameOnly=miscellaneous$|FieldNameOnly=Identifier|FieldType=0|ParameterName=Identifier|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap80]
 Options=FieldName=miscellaneous$.Library Ref|TableNameOnly=miscellaneous$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap81]
-Options=FieldName=miscellaneous$.Footprint Ref|TableNameOnly=miscellaneous$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap82]
-Options=FieldName=miscellaneous$.Description|TableNameOnly=miscellaneous$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap83]
-Options=FieldName=miscellaneous$.Library Path|TableNameOnly=miscellaneous$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap84]
-Options=FieldName=miscellaneous$.Footprint Path|TableNameOnly=miscellaneous$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap85]
 Options=FieldName=miscellaneous$.Value|TableNameOnly=miscellaneous$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap82]
+Options=FieldName=miscellaneous$.Footprint Ref|TableNameOnly=miscellaneous$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap83]
+Options=FieldName=miscellaneous$.Description|TableNameOnly=miscellaneous$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap84]
+Options=FieldName=miscellaneous$.Library Path|TableNameOnly=miscellaneous$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap85]
+Options=FieldName=miscellaneous$.Footprint Path|TableNameOnly=miscellaneous$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
