@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\Altium_Projects\SVNDBLIB\sun_library2.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=..\SVNDBLIB\sun_library2.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -12,122 +12,86 @@ QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
 LibraryDatabaseType=Microsoft Excel
-LibraryDatabasePath=D:\Altium_Projects\SVNDBLIB\sun_library2.xls
-DatabasePathRelative=1
+LibraryDatabasePath=..\SVNDBLIB\sun_library2.xls
+DatabasePathRelative=0
 TopPanelCollapsed=0
 LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Transistors$
+LastFocusedTable=Capacitors Ceram$
 [Table1]
 SchemaName=
 TableName=CapCeramMURATA$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Identifier0=221|Library Ref0=77|Value0=57|Value BOM0=81|Tolerance0=72|Case0=47|Footprint Ref0=92|Manufacturer0=93|Part Number0=132|Voltage0=63|Description0=158|Code0=50|Type0=46|Comment0=110|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=100|HelpURL0=295
 [Table2]
 SchemaName=
 TableName=Capacitors Ceram$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Identifier0=212|Library Ref0=77|Value0=59|Value BOM0=81|Tolerance0=72|Case0=47|Footprint Ref0=92|Manufacturer0=93|Part Number0=137|Voltage0=63|Description0=131|Code0=50|Type0=46|Comment0=110|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=100|HelpURL0=288
 [Table3]
 SchemaName=
 TableName=Capacitors El$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Identifier0=299|Library Ref0=77|Value0=56|Value BOM0=81|Tolerance0=72|Case0=84|Footprint Ref0=108|Manufacturer0=109|Part Number0=117|Voltage0=63|Description0=150|Code0=50|Type0=46|Comment0=110|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=100|HelpURL0=143
 [Table4]
 SchemaName=
 TableName=Coils$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Identifier0=230|Library Ref0=94|Value0=125|Value BOM0=81|Tolerance0=72|Case0=79|Footprint Ref0=97|Manufacturer0=93|Part Number0=125|Voltage0=63|Description0=94|Code0=50|Type0=46|Comment0=72|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=100|HelpURL0=196
 [Table5]
 SchemaName=
 TableName=Connectors$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Identifier0=253|Library Ref0=143|Value0=145|Value BOM0=81|Tolerance0=72|Case0=47|Footprint Ref0=166|Manufacturer0=152|Part Number0=150|Voltage0=63|Description0=254|Code0=50|Type0=46|Comment0=72|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=128|HelpURL0=301
 [Table6]
 SchemaName=
 TableName=Diodes$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Identifier0=177|Library Ref0=85|Value0=102|Value BOM0=81|Tolerance0=72|Case0=202|Footprint Ref0=92|Manufacturer0=103|Part Number0=102|Voltage0=63|Description0=239|Code0=50|Type0=46|Comment0=72|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=100|HelpURL0=168
 [Table7]
 SchemaName=
 TableName=ICs$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Identifier0=329|Library Ref0=118|Value0=121|Value BOM0=81|Tolerance0=72|Case0=111|Footprint Ref0=222|Manufacturer0=180|Part Number0=146|Voltage0=63|Description0=82|Code0=50|Type0=46|Comment0=72|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=100|HelpURL0=297
 [Table8]
 SchemaName=
 TableName=LEDs$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Identifier0=121|Library Ref0=82|Value0=115|Value BOM0=81|Tolerance0=72|Case0=47|Footprint Ref0=99|Manufacturer0=93|Part Number0=97|Voltage0=63|Description0=82|Code0=50|Type0=59|Comment0=72|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=98|HelpURL0=246
 [Table9]
 SchemaName=
 TableName=Resistors$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Identifier0=321|Library Ref0=77|Value0=59|Value BOM0=81|Tolerance0=72|Case0=47|Footprint Ref0=98|Manufacturer0=116|Part Number0=109|Voltage0=63|Description0=116|Code0=50|Type0=46|Comment0=119|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=100|HelpURL0=105
 [Table10]
 SchemaName=
 TableName=Resonators$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Identifier0=226|Library Ref0=107|Value0=75|Value BOM0=81|Tolerance0=72|Case0=64|Footprint Ref0=107|Manufacturer0=125|Part Number0=167|Voltage0=63|Description0=126|Code0=50|Type0=46|Comment0=72|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=100|HelpURL0=226
 [Table11]
 SchemaName=
 TableName=Transistors$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Identifier0=226|Library Ref0=89|Value0=94|Value BOM0=81|Tolerance0=72|Case0=76|Footprint Ref0=92|Manufacturer0=120|Part Number0=94|Voltage0=110|Description0=82|Code0=50|Type0=127|Comment0=72|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=100|HelpURL0=151
 [Table12]
 SchemaName=
 TableName=miscellaneous$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Identifier0=195|Library Ref0=105|Value0=115|Value BOM0=81|Tolerance0=72|Case0=73|Footprint Ref0=144|Manufacturer0=112|Part Number0=100|Voltage0=63|Description0=272|Code0=50|Type0=46|Comment0=119|Operating Temperature0=143|Price0=47|Library Path0=106|Footprint Path0=100|HelpURL0=235
 [FieldMap1]
 Options=FieldName=CapCeramMURATA$.Identifier|TableNameOnly=CapCeramMURATA$|FieldNameOnly=Identifier|FieldType=0|ParameterName=Identifier|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
